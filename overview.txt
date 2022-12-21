@@ -1,0 +1,18 @@
+JOIN TABLE decorator is present in table who has foreign key
+
+One to One
+USER AND PRODUCT
+1. One user has one product
+2. There is a foreign key in user table "prod_id"
+3. Relation and join table in user table only
+
+One to Many
+EMPLOYEE AND PHOTOS
+1. One employee have many photos
+2. There is foreign key in photos "emp_id"
+3. Relation in both and join table in photos table only
+
+Many to Many
+QUESTION AND CATEGORY
+1. One question can fall in many categories and vice-versa
+2. A third table will be used for conjucation
